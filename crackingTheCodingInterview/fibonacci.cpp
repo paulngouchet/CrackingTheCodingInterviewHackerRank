@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // when the recursion can rewritten in terms of mathematical expression, do it, then use that formula as the final case
@@ -13,8 +12,8 @@ int fibonacci(int n) {
         return 1;
     else
         return fibonacci(n-1) + fibonacci(n-2);
-
 }
+
 int main() {
     int n;
     cin >> n;
